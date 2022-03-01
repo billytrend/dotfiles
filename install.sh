@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "--Starting personalize"
 
 sudo apt-get update
