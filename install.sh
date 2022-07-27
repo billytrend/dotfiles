@@ -13,3 +13,7 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 brew tap gdubw/gng
 brew install gng
+
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+omf install nvm
+nvm use --lts
