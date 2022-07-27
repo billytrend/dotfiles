@@ -4,6 +4,7 @@ echo "--Starting personalize"
 
 sudo apt-get update
 sudo apt-get install -y fish
+curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
 sudo chsh -s /usr/bin/fish $USER
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
